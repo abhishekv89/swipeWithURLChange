@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Swipe to Change The URL</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+
+  
+<div id="header" 
+     data-role="header" 
+     data-id="header" 
+     data-position="fixed" 
+     data-fullscreen="true" 
+     data-tap-toggle="false" 
+     role="banner" 
+     class="ui-header ui-header-fullscreen ui-bar-b ui-header-fixed slidedown">
+  <h1 class="ui-title" role="heading" aria-level="1">Some Page</h1>
+</div>
+  
+  
+  
+  <div data-role="page" id="Page1" 
+       class="demo-page" 
+       data-dom-cache="true" 
+       data-theme="b" 
+       data-prev="" 
+       data-next="Page2" 
+       data-title="Buenos Aires"
+       data-url="Page1">
+
+    <div data-role="header">
+      <h1>My first page</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>Hello world</h1>
+      <p>Welcome to my first page</p>
+    </div>
+  </div>
+
+  <div data-role="page" id="Page2" 
+       class="demo-page" 
+       data-dom-cache="true" 
+       data-theme="b" 
+       data-prev="index" 
+       data-next="Page3" 
+       data-title="Buenos Aires"
+       data-url="/Page2.html">
+    
+    <div data-role="header">
+      <h1>My second page</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>Hello world</h1>
+      <p>Welcome to my second page</p>
+    </div>
+  </div>
+  
+  
+  <div data-role="page" id="Page3" 
+       class="demo-page" 
+       data-dom-cache="true" 
+       data-theme="b" 
+       data-prev="Page2" 
+       data-next="Page4" 
+       data-title="Buenos Aires"
+       data-url="/Page3.html">
+    
+    <div data-role="header">
+      <h1>My Third page</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>Hello world</h1>
+      <p>Welcome to my Third page</p>
+    </div>
+  </div>
+
+<div data-role="page" id="Page4" 
+       class="demo-page" 
+       data-dom-cache="true" 
+       data-theme="b" 
+       data-prev="Page3" 
+       data-next="Page5" 
+       data-title="Buenos Aires"
+       data-url="/Page4.html">
+    
+    <div data-role="header">
+      <h1>My Third page</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>Hello world</h1>
+      <p>Welcome to my Third page</p>
+    </div>
+</div>
+  
+  <div data-role="page" id="Page5" 
+       class="demo-page" 
+       data-dom-cache="true" 
+       data-theme="b" 
+       data-prev="Page4" 
+       data-next="" 
+       data-title="Buenos Aires"
+       data-url="/Page5.html">
+    
+    <div data-role="header">
+      <h1>My Third page</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>Hello world</h1>
+      <p>Welcome to my Third page</p>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

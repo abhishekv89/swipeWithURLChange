@@ -1,0 +1,36 @@
+#Page1 {
+  background-image: url("images/newyork.jpg");
+}
+
+#Page2 {
+  background-image: url("images/buenosaires.jpg");
+}
+
+#Page3 {
+  background-image: url("images/paris.jpg");
+}
+
+#Page4 {
+  background-image: url("images/capetown.jpg");
+}
+
+#Page5 {
+  background-image: url("images/seoul.jpg");
+}
+
+#Page6 {
+  background-image: url("images/sydney.jpg");
+}
+/* Background settings */
+
+.demo-page {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.demo-page .ui-footer {
+  background: none;
+  border: none;
+  bottom: 0;
+}
